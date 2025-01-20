@@ -5,11 +5,13 @@ const Navigation = () => {
   return (
     <nav style={navStyle}>
       <div>
-        <img
-          src="/bgimg.jpg"
-          alt="Logo"
-          style={{ height: "40px", cursor: "pointer" }}
-        />
+        <Link to="/" style={{ ...linkStyle, ...buttonStyle }}>
+          <img
+            src="/bgimg.jpg"
+            alt="Logo"
+            style={{ height: "40px", cursor: "pointer" }}
+          />
+        </Link>
       </div>
       <ul style={ulStyle}>
         <li>
